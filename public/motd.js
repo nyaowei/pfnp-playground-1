@@ -1,3 +1,4 @@
+
 fetch('/motd').then(function (response){
   response.text().then( function (message){
       document.querySelector('h1')
@@ -12,5 +13,5 @@ document.querySelector('button')
   .textContent = motd
 })
 setInterval(function(){
-  console.log('hello'+Math.random)
+
 })
